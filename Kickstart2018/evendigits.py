@@ -40,3 +40,7 @@ def smallDataset():
         print("Case #"+"{}".format(counter) +
               "{}".format(":"), minimum_press(number))
         counter += 1
+
+
+if __name__ == "__main__":
+    smallDataset()
