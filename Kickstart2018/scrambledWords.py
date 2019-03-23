@@ -38,7 +38,8 @@ def solve(s1, s2, A, B, C, D, N, a, n):
     return ret
 
 
-sys.stdin = open('%s-%s-practice.txt' % (question, fileName), 'r')
+sys.stdin = open('Kickstart2018/%s-%s-practice.txt' %
+                 (question, fileName), 'r')
 cases = int(input())
 for i_ in range(cases):
     n = int(input())
@@ -46,7 +47,7 @@ for i_ in range(cases):
     b = input().strip().split(' ')
     s1, s2, N, A, B, C, D = b[0], b[1], int(b[2]), int(
         b[3]), int(b[4]), int(b[5]), int(b[6])
-    res.append(slove(a, n, s1, s2, N, A, B, C, D))
+    results.append(solve(a, n, s1, s2, N, A, B, C, D))
 
 fp = open('%s-%s-practice.out' % (question, fileName), 'w')
 for i_, c in enumerate(res):
