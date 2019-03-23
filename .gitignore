@@ -103,3 +103,5 @@ venv.bak/
 # mypy
 .mypy_cache/
 Kickstart2018/C-small-practice.txt
+Kickstart2017/A-small-practice.in
+Kickstart2017/A-small-practice.out
